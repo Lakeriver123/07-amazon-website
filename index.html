@@ -4,30 +4,266 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon Website</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./Styles/base.css">
 </head>
 <body>
     <div class="main-container">
         <div class="header">
-            <div class="header-left-section"></div>
-                <div class="amazon-logo"></div>
-                <div class="search-bar">
-            <div class="header-middle-section"></div>
-                <div class="search-bar-input"></div>
-                <div class="search-bar-logo"></div>
+            <div class="header-left-section">
+                <div class="amazon-logo-container"> 
+                    <img class="amazon-logo"  src="./Images/amazon-logo-white.png" alt="amazon-logo">
+                    <img class="amazon-mobile-logo" src="./Images/amazon-mobile-logo-white.png" alt="mobile-logo">
+                </div>
+            </div>
+            <div class="header-middle-section">
+                <div class="search-bar-container">
+                    <input type="text" class="search-bar-input" placeholder="Search">
+                    <img class=search-bar-icon src="./Images/./search-icon.png" alt="">
+                </div>
+            </div>
             <div class="header-right-section">
-                <div class="returns-and-orders"></div>
-                <div class="cart"></div>
+                <div class="returns-and-orders-container">
+                    <p class="returns-text">Returns</p>
+                    <p class="orders-text">& Orders</p>
+                </div>
+                <div class="cart-container">
+                    <img class="cart-icon" src="./Images/cart-icon.png" alt="cart">
+                    <div class="cart-quantity">1</div>
+                    <div class="cart-icon-text">
+                        Cart
+                    </div>
+                </div>
+                <div class="hamburger-menu-container">
+                    <img class="hamburger-menu" src="./Images/hamburger-menu.png" alt="menu">
+                </div>
             </div>
         </div>
-        <div class="grid-container"></div>
+        <div class="grid-container">
             <div class="product-container">
-                <div class="product-image"></div>
-                <div class="product-name"></div>
-                <div class="product-rating"></div>
-                <div class="product-price"></div>
-                <div class="product-quantity"></div>
+                <div class="product-image">
+                    <img src="./Images/athletic-cotton-socks-6-pairs.jpg" alt="product-image">
+                </div>
+                <div class="product-name">
+                    Black and Gray Athletic Cottons Socks - 6 Pairs
+                </div>
+                <div class="product-rating-container">
+                    <img class="star-rating" src="./Images/rating-45.png" alt="stars">
+                    <div class="number-of-ratings">87</div>
+                </div>
+                <div class="product-price">
+                    $10.90
+                </div>
+                <div class="product-quantity">
+                    <!-- FYI The syntax below is probably incorrect for for / id etc, 
+                        but its just placeholder for now -->
+                    <select class="quantity-selector" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="add-to-cart-button">Add to Cart</div>
             </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="./Images/athletic-cotton-socks-6-pairs.jpg" alt="product-image">
+                </div>
+                <div class="product-name">
+                    Black and Gray Athletic Cottons Socks - 6 Pairs
+                </div>
+                <div class="product-rating-container">
+                    <img class="star-rating" src="./Images/rating-45.png" alt="stars">
+                    <div class="number-of-ratings">87</div>
+                </div>
+                <div class="product-price">
+                    $10.90
+                </div>
+                <div class="product-quantity">
+                    <!-- FYI The syntax below is probably incorrect for for / id etc, 
+                        but its just placeholder for now -->
+                    <select class="quantity-selector" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="add-to-cart-button">Add to Cart</div>
+            </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="./Images/athletic-cotton-socks-6-pairs.jpg" alt="product-image">
+                </div>
+                <div class="product-name">
+                    Black and Gray Athletic Cottons Socks - 6 Pairs
+                </div>
+                <div class="product-rating-container">
+                    <img class="star-rating" src="./Images/rating-45.png" alt="stars">
+                    <div class="number-of-ratings">87</div>
+                </div>
+                <div class="product-price">
+                    $10.90
+                </div>
+                <div class="product-quantity">
+                    <!-- FYI The syntax below is probably incorrect for for / id etc, 
+                        but its just placeholder for now -->
+                    <select class="quantity-selector" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="add-to-cart-button">Add to Cart</div>
+            </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="./Images/athletic-cotton-socks-6-pairs.jpg" alt="product-image">
+                </div>
+                <div class="product-name">
+                    Black and Gray Athletic Cottons Socks - 6 Pairs
+                </div>
+                <div class="product-rating-container">
+                    <img class="star-rating" src="./Images/rating-45.png" alt="stars">
+                    <div class="number-of-ratings">87</div>
+                </div>
+                <div class="product-price">
+                    $10.90
+                </div>
+                <div class="product-quantity">
+                    <!-- FYI The syntax below is probably incorrect for for / id etc, 
+                        but its just placeholder for now -->
+                    <select class="quantity-selector" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="add-to-cart-button">Add to Cart</div>
+            </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="./Images/athletic-cotton-socks-6-pairs.jpg" alt="product-image">
+                </div>
+                <div class="product-name">
+                    Black and Gray Athletic Cottons Socks - 6 Pairs
+                </div>
+                <div class="product-rating-container">
+                    <img class="star-rating" src="./Images/rating-45.png" alt="stars">
+                    <div class="number-of-ratings">87</div>
+                </div>
+                <div class="product-price">
+                    $10.90
+                </div>
+                <div class="product-quantity">
+                    <!-- FYI The syntax below is probably incorrect for for / id etc, 
+                        but its just placeholder for now -->
+                    <select class="quantity-selector" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="add-to-cart-button">Add to Cart</div>
+            </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="./Images/athletic-cotton-socks-6-pairs.jpg" alt="product-image">
+                </div>
+                <div class="product-name">
+                    Black and Gray Athletic Cottons Socks - 6 Pairs
+                </div>
+                <div class="product-rating-container">
+                    <img class="star-rating" src="./Images/rating-45.png" alt="stars">
+                    <div class="number-of-ratings">87</div>
+                </div>
+                <div class="product-price">
+                    $10.90
+                </div>
+                <div class="product-quantity">
+                    <!-- FYI The syntax below is probably incorrect for for / id etc, 
+                        but its just placeholder for now -->
+                    <select class="quantity-selector" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="add-to-cart-button">Add to Cart</div>
+            </div>
+            <div class="product-container">
+                <div class="product-image">
+                    <img src="./Images/athletic-cotton-socks-6-pairs.jpg" alt="product-image">
+                </div>
+                <div class="product-name">
+                    Black and Gray Athletic Cottons Socks - 6 Pairs
+                </div>
+                <div class="product-rating-container">
+                    <img class="star-rating" src="./Images/rating-45.png" alt="stars">
+                    <div class="number-of-ratings">87</div>
+                </div>
+                <div class="product-price">
+                    $10.90
+                </div>
+                <div class="product-quantity">
+                    <!-- FYI The syntax below is probably incorrect for for / id etc, 
+                        but its just placeholder for now -->
+                    <select class="quantity-selector" name="quantity">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="add-to-cart-button">Add to Cart</div>
+            </div>
+        </div>
     </div>
     
 </body>
