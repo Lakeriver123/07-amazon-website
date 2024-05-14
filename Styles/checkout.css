@@ -1,0 +1,82 @@
+/* d    <div class="main-container">
+<div class="header">
+    <div class="header-left-section">
+        <img src="./Images/amazon-logo-black.png" alt="amazon-logo" class="amazon-logo">
+    </div>
+    <div class="header-middle-section">
+        <h1 class="checkout-title">Checkout(3 Items)</h1>
+    </div>
+    <div class="header-right-section">
+        <img src="./Images/checkout-lock-icon.png" alt="checkout-lock" class="checkout-lock-logo">
+    </div> */
+
+    body {
+        margin: 0;
+        column-rule-color: black;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .main-container {
+        margin-top: 75px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 70px;
+        background-color: grey;
+        padding: 0 30px;
+    }
+
+    .amazon-logo {
+        width: 100px;
+    }
+
+    .header-middle-section {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .checkout-title {
+        font-size: 20px;
+    }
+
+    .checkout-quantity {
+        font-size: 20px;
+        color: rgb(6, 104, 143);
+        font-weight: bold;
+    }
+
+
+
+
+    .product-in-cart-container {
+        display: grid;
+        grid-template-columns: 500px;
+        gap: 10px;
+    }
+    .product-image {
+        width: 150px;
+    }
+
+    .product-name {
+        font-weight: bold;
+    }
+
+    .product-price {
+        font-weight: bold;
+        color: rgb(182, 52, 1);
+        font-size: 16px;
+    }
+
+    .quantity-container {
+        display: flex;
+    }
+
+    
